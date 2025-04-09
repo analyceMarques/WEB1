@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyce</title>
+
+    <style>
+        body {
+            background-color: rgb(170, 149, 117);
+
+        }
+    </style>
+
+</head>
+<body>
+    <li><a href="index.html">Pagina index</a></li>
+
+        <h2>Dados:</h2>
+    <form>
+
+        <label for="nome">Nome completo:</label><br>
+        <input type="text" id="nome" size="50" nome="nome"><br>
+        <br>
+        <label for="endereco"> Endereço:</label><br>
+        <input type="text" id="endereco" size=50 nome="endereco"><br>
+        <br>
+        <label for="pedido">N do Pedido:</label><br>
+        <input type="number" id="pedido" size=50 nome="pedido"><br>
+        <br>
+        <label for="fdataMascimento">Data de Nacimento: </label><br>
+        <input type="date" id="fdataMascimento"><br>
+        <br>
+        <label for="cor">Cor preferida:</label><br>
+        <input type="color" id="cor">
+        <br><br>
+        <label for=""></label>
+        <label for="fpassword">Senhas: </label><br>
+        <input type="password" id="fpassword"><br>
+        <br>
+        Voce estuda no IFCE?
+        <input type="radio" name="est" value="sim" checked> SIM
+        <!--O termo <cheched> faz algo ficar marcado por padrão-->
+        <input type="radio" name="est" value="nao"> NÃO
+        <input type="radio" name="est" value="naoInf"> DESEJO NÃO INFROMAR
+        <br><br>
+        <label for="frg">Faixa:</label><br>
+        <input type="range" id="frg">
+        <br>
+        <br>
+        <span>Frutas favoritas:</span>
+        <input type="checkbox" id="checkbox" value="0">
+        <label for="ckbox1">Maça</label>
+        <input type="checkbox" id="checkbox" value="0">
+        <label for="ckbox2">Morango</label>
+        <input type="checkbox" id="checkbox" value="0">
+        <label for="ckbox3">Banana</label>
+       
+        <br>
+        <br>
+            
+            <label for="slc1">Escolha um curso:</label>
+            <select id="slc1" name="Carro">
+                <option value="0">Ciencia da Computacao</option>
+                <option value="1">Engenharia da Computacao</option>
+                <option value="2">Desenvolvimento de Software</option>
+                <option value="3">Redes de Computadores</option>
+            </select>
+        <br><br>
+
+        <br>
+        <span>Comentarios:</span>
+
+        <textarea rows="25" cols="50" id="txa1"></textarea>
+
+        <br>
+        <br>
+
+        <button type="button"></button>
+
+        <input type="reset" value="Apagar">
+
+        <!--input type="submit" value="Enviar"-->
+
+        <!--input type="submit" value="Enviar"-->
+
+        <input type="button" value="Enviar">
+
+    </form>
+</body>
+</html>
